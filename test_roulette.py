@@ -21,7 +21,7 @@ from roulette import (
 # ------------------------------------------------------------------
 
 def test_wisselen_van_137_euro():
-    assert euro_naar_fiches(137) == {-+100: 1, 25: 1, 10: 1, 5: 0, 1: 2}
+    assert euro_naar_fiches(137) == {100: 1, 25: 1, 10: 1, 5: 0, 1: 2}
 
 
 def test_wisselen_van_nul_euro():
